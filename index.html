@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Joshua Bradley - Designer</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+
+	<!--[if ! lt IE 10]><!-->
+		<link rel="stylesheet" href="styles/main.css">
+	<!--<![endif]-->
+
+	<!--[if lt IE 10]>
+		<link rel="stylesheet" type="text/css" href="ie-styles/ie-styles.css" />
+	<![endif]-->
+
+	<!-- Favicon code --> 
+	<link rel="apple-touch-icon" sizes="57x57" href="images/favicons/apple-touch-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="images/favicons/apple-touch-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="images/favicons/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="images/favicons/apple-touch-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="images/favicons/apple-touch-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="images/favicons/apple-touch-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="images/favicons/apple-touch-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="images/favicons/apple-touch-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="images/favicons/apple-touch-icon-180x180.png">
+	<link rel="icon" type="image/png" href="images/favicons/favicon-32x32.png" sizes="32x32">
+	<link rel="icon" type="image/png" href="images/favicons/favicon-194x194.png" sizes="194x194">
+	<link rel="icon" type="image/png" href="images/favicons/favicon-96x96.png" sizes="96x96">
+	<link rel="icon" type="image/png" href="images/favicons/android-chrome-192x192.png" sizes="192x192">
+	<link rel="icon" type="image/png" href="images/favicons/favicon-16x16.png" sizes="16x16">
+	<link rel="manifest" href="images/favicons/manifest.json">
+	<link rel="mask-icon" href="images/favicons/safari-pinned-tab.svg" color="#ff2900">
+	<link rel="shortcut icon" href="images/favicons/favicon.ico">
+	<meta name="apple-mobile-web-app-title" content="Joshua Bradley">
+	<meta name="application-name" content="Joshua Bradley">
+	<meta name="msapplication-TileColor" content="#da532c">
+	<meta name="msapplication-TileImage" content="images/favicons/mstile-144x144.png">
+	<meta name="msapplication-config" content="images/favicons/browserconfig.xml">
+	<meta name="theme-color" content="#ffffff">
+	<!-- / Favicon code --> 
+</head>
+<body class="none first-slide">
+	<button id="menuButton" class="menu-button">
+		<span></span>
+		<span></span>
+		<span></span>
+		<span></span>
+	</button>
+	<div class="menu-wrapper">
+		<ul class="menu-link-list">
+			<li class="menu-link-item"><a id="home-link" href="#">Home</a></li>
+			<li class="menu-link-item"><a id="made-study" href="#made-case-cover">Case study: Made.com</a></li>
+			<li class="menu-link-item"><a id="tlobf-study" href="#tlobf-case-cover">Case Study: The Line of Best Fit</a></li>
+			<li class="menu-link-item"><a id="previous-work" href="#earlier-work">Earlier work</a></li>
+			<li class="menu-link-item"><a id="influences" href="#design-philosophy">Design influences</a></li>
+			<li class="menu-link-item"><a id="contact" href="#contact">Contact</a></li>
+		</ul>
+	</div>
+	<button class="prev-slide-button">Previous <i class="arrow up"></i></button>
+	<button class="next-slide-button">Next <i class="arrow down"></i></button>
+	<div class="swiper-container swiper-container-v">
+		<div class="swiper-wrapper">
+			<div class="swiper-slide slide-home" data-hash="home">
+				<div class="content-frame">
+					<div class="slide-home__hero">
+						<div>
+							<img class="home__monogram" src="images/jb-outline-monogram.svg" alt="logo">
+							<h1 class="slide-home__header">Hello, I&rsquo;m Joshua.<br>I design, prototype and build interfaces.</h1>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="swiper-slide slide-about slide-dark-bg v3-slide-vertical-centre" data-hash="about-site">
+				<div class="content-frame">
+					<h1 class="slide-text-only__header">This site will walk you through a couple of my most <a id="made-study-int" href="#">recent projects</a>, show you some <a id="previous-work-int" href="#">earlier work</a>, then talk a bit about my <a id="influences-int" href="#">beliefs and influences</a>.</h1>
+				</div>
+			</div>
+			<div class="swiper-slide slide-studycover slide-studycover--made slide-light-bg" data-hash="made-case-cover">
+				<div class="content-frame">
+					<img class="slide-studycover__logo" src="images/made-logo.svg" alt="logo">
+					<h1 class="slide-studycover__header">I created a single responsive design to  combine made.com&rsquo;s desktop &amp; mobile sites.</h1>
+					<p class="slide-studycover__subtitle">Made is a designer furniture brand with an annual turnover above £40m. All their sales are made through the website.</p>
+				</div>
+			</div>
+			<div class="swiper-slide case-study slide-studypage--devices slide-light-bg slide-bg-gradient--made" data-hash="made-case-productpage">
+				<div class="content-frame">
+					<span class="running-header">New Responsive Product Page</span>
+					<div class="device-images">
+						<img src="images/laptop-shadow.png" class="slide-studypage__laptop-screen-shadow">
+						<img src="images/made-product-page-laptop.png" alt="" class="slide-studypage__laptop-image">
+						<img src="images/made-product-page-tablet.png" alt="" class="slide-studypage__tablet-image">
+						<img src="images/made-product-page-mobile.png" alt="" class="slide-studypage__mobile-image">
+					</div>
+				</div>
+			</div>
+			<div class="swiper-slide case-study slide-studypage--devices slide-light-bg slide-bg-gradient--made" data-hash="made-case-homepage">
+				<div class="content-frame">
+					<span class="running-header">New Responsive Home Page</span>
+					<div class="device-images">
+						<img src="images/laptop-shadow.png" class="slide-studypage__laptop-screen-shadow">
+						<img src="images/made-home-page-laptop.png" alt="" class="slide-studypage__laptop-image">
+						<img src="images/made-home-page-tablet.png" alt="" class="slide-studypage__tablet-image">
+						<img src="images/made-home-page-mobile.png" alt="" class="slide-studypage__mobile-image">
+					</div>
+				</div>
+			</div>
+			<div class="swiper-slide case-study slide-studypage slide-light-bg slide-bg-gradient--made" data-hash="made-case-information-architecture">
+				<div class="content-frame">
+					<span class="running-header">Information Architecture</span>
+					<h1 class="slide-studypage__header">I created low-fidelity mockups to let project teams agree on the broad strokes of information design without the distraction of cosmetic detail.</h1>
+					<div class="slide-split-bg--made-ia">
+					</div>
+				</div>
+			</div>
+			<div class="swiper-slide case-study slide-studypage slide-light-bg slide-bg-gradient--made" data-hash="made-case-ux">
+				<div class="content-frame">
+					<span class="running-header">UX &amp; Flow Design Prototyping</span>
+					<h1 class="slide-studypage__header">I presented usable flow prototypes from day one. Working in rapid, collaborative cycles of testing, feedback and design iteration gets me further.</h1>
+					<div class="slide-split-bg--made-iterations">
+						<img src="images/iteration-diagram.svg" alt="" class="slide-split-bg__img">
+					</div>
+				</div>
+			</div>
+			<div class="swiper-slide case-study slide-studypage slide-light-bg slide-bg-gradient--made v3-slide-vertical-centre slide-studyfinal" data-hash="made-case-results">
+				<div class="content-frame">
+					<h1 class="slide-text-only__header slide-studypage__header">Early results are overwhelmingly positive- we saw a 30% uplift in mobile conversion, and a 40% reduction in calls to the help centre.</h1>
+					<form action="http://made.com" target="_blank">
+						<button type="submit" class="button--dark button--leftbox button--topright">launch made.com</button>
+					</form>
+				</div>
+			</div>
+			<div class="swiper-slide slide-studycover slide-studycover--tlobf slide-dark-bg tlobf-bg" data-hash="bestfit-case-cover">
+				<div class="content-frame">
+					<img class="slide-studycover__logo" src="images/tlobf-logo.svg" alt="logo">
+					<h1 class="slide-studycover__header">I worked with The Line of Best Fit to redesign and restructure their site, refreshing the brand and putting content before taxonomy.</h1>
+					<p class="slide-studycover__subtitle">The Line of Best Fit is a popular music platform based in London. The site receives over 6m unique visitors per year.</p>
+				</div>
+			</div>
+			<div class="swiper-slide case-study slide-studypage slide-dark-bg slide-bg-gradient--tlobf" data-hash="bestfit-case-process">
+				<div class="content-frame">
+					<span class="running-header">Process</span>
+					<h1 class="slide-studypage__header">I got ideas down fast, used wireframes to work on modularity, then crafted and iterated designs using real content.</h1>
+					<div class="slide-split-bg--tlobf-process">
+					</div>
+				</div>
+			</div>
+			<div class="swiper-slide case-study slide-studypage--devices slide-dark-bg slide-bg-gradient--tlobf" data-hash="bestfit-case-news-article">
+				<div class="content-frame">
+					<span class="running-header">New Article Page</span>
+					<div class="device-images">
+						<img src="images/tlobf-news-page-laptop.png" alt="" class="slide-studypage__laptop-image">
+						<img src="images/tlobf-news-page-tablet.png" alt="" class="slide-studypage__tablet-image">
+						<img src="images/tlobf-news-page-mobile.png" alt="" class="slide-studypage__mobile-image">
+					</div>
+				</div>
+			</div>
+			<div class="swiper-slide case-study slide-studypage--devices slide-dark-bg slide-bg-gradient--tlobf" data-hash="bestfit-case-homepage">
+				<div class="content-frame">
+					<span class="running-header">New Home Page</span>
+					<div class="device-images">
+						<img src="images/laptop-shadow.png" class="slide-studypage__laptop-screen-shadow">
+						<img src="images/tlobf-home-page-laptop.png" alt="" class="slide-studypage__laptop-image">
+						<img src="images/tlobf-home-page-tablet.png" alt="" class="slide-studypage__tablet-image">
+						<img src="images/tlobf-home-page-mobile.png" alt="" class="slide-studypage__mobile-image">
+					</div>
+				</div>
+			</div>
+			<div class="swiper-slide case-study slide-studypage--devices slide-dark-bg slide-bg-gradient--tlobf" data-hash="bestfit-case-listingpage">
+				<div class="content-frame">
+					<span class="running-header">New Listing Page</span>
+					<div class="device-images">
+						<img src="images/laptop-shadow.png" class="slide-studypage__laptop-screen-shadow">
+						<img src="images/tlobf-listing-page-laptop.png" alt="" class="slide-studypage__laptop-image">
+						<img src="images/tlobf-listing-page-tablet.png" alt="" class="slide-studypage__tablet-image">
+						<img src="images/tlobf-listing-page-mobile.png" alt="" class="slide-studypage__mobile-image">
+					</div>
+				</div>
+			</div>
+			<div class="swiper-slide case-study slide-studypage slide-dark-bg slide-bg-gradient--tlobf v3-slide-vertical-centre slide-studyfinal" data-hash="bestfit-case-end">
+				<div class="content-frame">
+					<h1 class="slide-studypage__header slide-text-only__header">After completing the designs, I built and tested an HTML pattern library with all the necessary components to build the site templates.</h1>
+					<form action="http://thelineofbestfit.com" target="_blank">
+						<button type="submit" class="button--light button--leftbox button--topright">launch Best Fit</button>
+					</form>
+				</div>
+			</div>
+			<div class="swiper-slide slide-about slide-dark-bg v3-slide-vertical-centre" data-hash="earlier-work">
+				<div class="content-frame">
+					<img class="icon-hourglass" src="images/icon-hourglass.svg" alt="">
+					<h1 class="slide-text-only__header">Now for some of my earlier work&hellip;</h1>
+				</div>
+			</div>
+			<div class="swiper-slide slide-studycover slide-dark-bg sw-bg" data-hash="shoreditch-works">
+				<div class="content-frame">
+					<h1 class="slide-studypage__header">I co-founded Shoreditch Works, a London startup co-working community &amp; events business.</h1>
+					<ul class="bullet-list">
+						<li>We raised <a target="_blank" href="https://www.kickstarter.com/projects/179276400/open-the-shoreditch-village-hall">£90k on Kickstarter</a></li>
+						<li>100+ full time members</li>
+						<li>Three central London spaces</li>
+						<li>Events for IBM, Node.js Foundation and more</li>
+					</ul>
+					<img class="sw-logo" src="images/sw-logo.svg" alt="">
+				</div>
+			</div>
+			<div class="swiper-slide slide-studycover slide-dark-bg penrose-bg" data-hash="penrose">
+				<div class="content-frame">
+					<h1 class="slide-studypage__header">I co-founded Penrose, a digital consultancy with clients from sectors including health, property, education, personal data, geopolitics and charity.</h1>
+					<!-- <img class="penrose-logo" src="images/penrose-logo.svg" alt=""> -->
+					<ul class="client-logos">
+						<li><img src="images/logo-ilga.svg" alt="" class="logo-ilga"></li>
+						<li><img src="images/logo-webwewant.svg" alt="" class="logo-webwewant"></li>
+						<li><img src="images/logo-decoded.svg" alt="" class="logo-decoded"></li>
+						<li><img src="images/logo-ctrlio.svg" alt="" class="logo-ctrlio"></li>
+					</ul>
+					<ul class="bullet-list">
+						<li>Enabled <a href="#">CTRLio</a> to raise £1m in funding and launch their first product</li>
+						<li>Virgin Business innovation award for work with the Anna Freud Centre</li>
+					</ul>
+				</div>
+			</div>
+			<div class="swiper-slide slide-dark-bg v3-slide-vertical-centre" data-hash="geomety">
+				<div class="content-frame moire-background">
+					<h1 class="slide-studypage__header--wide">In my spare time, I like to experiment with geometry&hellip;</h1>
+				</div>
+			</div>
+			<div class="swiper-slide slide-dark-bg v3-slide-vertical-centre" data-hash="fonts">
+				<div class="content-frame font-background">
+					<h1 class="slide-studypage__header">&hellip;design fonts</h1>
+				</div>
+			</div>
+			<div class="swiper-slide slide-dark-bg photo-bg v3-slide-vertical-centre" data-hash="photos">
+				<div class="content-frame">
+					<h1 class="slide-studypage__header--wide">&hellip;and take photos</h1>
+				</div>
+			</div>
+			<div class="swiper-slide slide-about slide-dark-bg v3-slide-vertical-centre" data-hash="design-philosophy">
+				<div class="content-frame">
+					<h1 class="slide-text-only__header">A few fragments of my design philosophy&hellip;</h1>
+				</div>
+			</div>
+			<div class="swiper-slide slide-dark-bg v3-slide-vertical-centre path-bg" data-hash="desire-paths">
+				<div class="content-frame">
+					<h1 class="slide-studypage__header--wide">Look for desire paths: ideal designs are revealed through use.</h1>
+				</div>
+			</div>
+			<div class="swiper-slide slide-dark-bg v3-slide-vertical-centre container-bg" data-hash="standards">
+				<div class="content-frame">
+					<h1 class="slide-studypage__header--wide">Use the power of standardisation, repetition, interoperability.</h1>
+				</div>
+			</div>
+			<div class="swiper-slide slide-dark-bg v3-slide-vertical-centre axe-bg" data-hash="stone-axe">
+				<div class="content-frame">
+					<h1 class="slide-studypage__header--wide">Humane design is lasting, functional, ergonomic.</h1>
+				</div>
+			</div>
+			<div class="swiper-slide contact-bg contact-slide slide-dark-bg" data-hash="contact">
+				<div class="content-frame">
+					<div class="contact-slide__hero">
+						<div>
+							<h1 class="contact-slide__header">I&rsquo;d love to hear from you.</h1>
+							<p class="contact-slide__contact"><a id="contactEmail" href=""><span>contact</span><span>@</span><span>joshuabradley.co.uk</span></a></p>
+							<div class="contact-slide__social-icons">
+								<a target="_blank" href="https://twitter.com/jshbrdly" class="social-icons__twitter"><img src="images/icon-twitter.svg" alt=""></a>
+								<a target="_blank" href="https://www.linkedin.com/in/joshua-bradley-b48b4a15" class="social-icons__linkedin"><img src="images/icon-linkedin.svg" alt=""></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Swiper JS -->
+	<script src="scripts/swiper.min.js"></script>
+	<script src="scripts/main.js"></script>
+	<script src="scripts/main.min.js"></script>
+
+	<!-- Initialize Swiper -->
+
+	<script>
+		var swiperV = new Swiper('.swiper-container-v', {
+        direction: 'vertical',
+        mousewheelForceToAxis: true,
+        slidesPerView: 1,
+        keyboardControl: true,
+        mousewheelControl: true,
+        nextButton: '.next-slide-button',
+        prevButton: '.prev-slide-button',
+        threshold: 10,
+        spaceBetween: 0,
+		    onTransitionStart: function(swiperV) {
+		    	// function to hide btns
+	      	var currentSlide = swiperV.snapIndex;
+					var body = document.body;
+					if(currentSlide === 0) {
+						toggleClass(body, 'first-slide');
+						body.classList.remove("last-slide"); // class added for navigation from start to end
+					} else if(currentSlide === 24) {
+						toggleClass(body, 'last-slide');
+						body.classList.remove("first-slide"); // class added for navigation from end to start
+					} else {
+						body.classList.remove("last-slide");
+						body.classList.remove("first-slide");
+					}
+		    },
+		    hashnav: true
+      });
+
+	</script>
+</body>
+</html>
